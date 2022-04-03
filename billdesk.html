@@ -7,23 +7,7 @@
 
         <title>Free Invoice Generator</title>
         <meta name="description" content="Use this simple, page saving invoice template to create beautiful invoices online or offline. Layout Optimized for print & pdf">
-
-        <style>
-            @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800,300italic,400italic,600italic);
-            body{font-family:'Courier', 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode';color:#4F5155;font-size:11px;}
-            table{text-align:justify;}
-            input{padding:3px;margin:3px;width:45%;}
-            .input_large{width:94%;}
-            .input_small{width:20%}
-            #invoice_pane{position:fixed;top:0;left:0;width:750px;height:100%;}
-            #settings_pane{position:absolute;top:0;left:770px;width:calc(98% - 770px);height:auto;border-left:2px solid #d8d8d8;font-size: 12px;padding:5px;}
-            #page_end_msg{position:absolute;bottom:20px;left:210px;width:300px;height:auto;background-color:rgba(18,18,18,0.85);border-radius:25px;padding:15px;font-size:12px;}
-            #page_end_msg .heading{display:block;color:#fff;padding-bottom:5px;font-weight:600;}
-            #page_end_msg .text{display:block;color:#999;}
-            #page_end_msg .links{display:block;color:#fff;padding-top:5px;}
-            #page_end_msg .links a{color:#fff;}
-            @media print{.do_not_print {display:none;}}
-        </style>
+<link rel="stylesheet" type="text/css" href="Music/bill.css">
     </head>
     <body>
         <div id="invoice_pane">
@@ -141,7 +125,7 @@
             <input type="text" id="customer_zip_value" placeholder="Actual Area Code" value="110084">
             <input type="text" id="customer_id" placeholder="Email/Phone Field Identifier" value="Email">
             <input type="text" id="customer_id_value" placeholder="Email Address/Phone Number" value="yaduwanshib650@gmail.com">
-            <input type="text" id="customer_cid" placeholder="Company Number Field Identifier" value="Jharkhand">
+            <input type="text" id="customer_cid" placeholder="Company Number Field Identifier" value="jharkhand">
             <input type="text" id="customer_cid_value" placeholder="EIN/GST/CIN/VAT/TIN Number" value="29940383607"><br><br>
             <b>VENDOR INFO</b><br>
             <input class="input_large" type="text" id="vendor_name" placeholder="Vendor Company Name" value="purchase.">
